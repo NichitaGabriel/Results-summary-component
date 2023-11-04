@@ -35,8 +35,6 @@ Desktop version
 Mobile version
 <img src="assets\screenshots\mobile-version.JPG" alt="Desktop Version" width="1024"/>
 
-
-
 ### Links
 
 - [Added solution URL here](https://github.com/NichitaGabriel/Results-summary-component)
