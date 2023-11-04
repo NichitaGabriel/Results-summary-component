@@ -161,4 +161,31 @@ body {
 	cursor: pointer;
 }
 
+@media only screen and (min-width: 768px), (min-width: 1440px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
+	.card-container {
+		flex-direction: row;
+		margin-top: 10rem;
+		width: 700px;
+		height: 400px;
+		background-color: white;
+	}
+
+	.display-results {
+		border-radius: 25px;
+		height: 400px;
+		background-color: white;
+	}
+
+	.display-score {
+		justify-content: start;
+		-webkit-box-shadow: 50px 20px 50px -20px rgba(0, 0, 0, 0.3);
+		box-shadow: 50px 20px 50px -20px rgba(0, 0, 0, 0.3);
+	}
+}
