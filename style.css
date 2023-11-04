@@ -1,0 +1,160 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 2vh;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.card-container {
+	width: 375px;
+	height: 830px;
+	background-color: white;
+}
+
+.display-results {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 100%;
+	height: 370px;
+
+	background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+	text-align: center;
+
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+.results-title {
+	font-size: 20px;
+	padding: 25px 0px 10px 0px;
+	color: hsl(241, 100%, 89%);
+}
+
+.results-score {
+	border-radius: 75px;
+
+	width: 150px;
+	height: 150px;
+	margin: 20px 0px 20px 0px;
+
+	background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: white;
+}
+
+.results-score p:first-child {
+	font-size: 72px;
+	font-weight: 800;
+}
+
+.results-score p:nth-child(2) {
+	color: hsl(241, 100%, 89%);
+}
+
+.results-message {
+	font-size: 26px;
+	font-weight: 700;
+	color: white;
+}
+
+.results-rank {
+	margin-top: 10px;
+	padding: 0px 45px 0px 45px;
+	color: hsl(241, 100%, 89%);
+}
+
+.display-score-title {
+	padding: 0px 0px 0px 38px;
+	font-size: 20px;
+	margin-top: 25px;
+	font-weight: 700;
+	color: hsl(224, 30%, 27%);
+}
+.display-score {
+	padding: 25px;
+}
+
+.display-score {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.score-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+	height: 40px;
+	padding: 4px;
+	margin-top: 15px;
+}
+
+.first-span {
+	font-weight: 800;
+	color: hsl(224, 30%, 27%);
+}
+.second-span {
+	font-weight: 800;
+	color: hsl(224, 30%, 70%);
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+	border-radius: 10px;
+}
+
+.reaction {
+	background-color: hsla(0, 100%, 67%, 0.1);
+	color: hsl(0, 100%, 67%);
+}
+.memory {
+	background-color: hsla(39, 100%, 56%, 0.1);
+	color: hsl(39, 100%, 56%);
+}
+.verbal {
+	background-color: hsla(166, 100%, 37%, 0.1);
+	color: hsl(166, 100%, 37%);
+}
+.visual {
+	background-color: hsla(234, 85%, 45%, 0.1);
+	color: hsl(234, 85%, 45%);
+}
+
+.continue-button {
+	margin-top: 3rem;
+	width: 300px;
+	height: 55px;
+
+	outline: none;
+	border: 0;
+	font-size: 19px;
+	font-weight: 700;
+	border-radius: 50px;
+
+	color: white;
+	background-color: hsl(224, 30%, 27%);
+}
