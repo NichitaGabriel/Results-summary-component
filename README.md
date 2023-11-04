@@ -30,15 +30,17 @@ Users should be able to:
 
 ### Screenshot
 Desktop version
-![](assets\screenshots\desktop-version.JPG)
+<img src="assets\screenshots\desktop-version.JPG" alt="Desktop Version" width="1024"/>
+
 Mobile version
-![](assets\screenshots\mobile-version.JPG)
+<img src="assets\screenshots\mobile-version.JPG" alt="Desktop Version" width="1024"/>
+
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Added solution URL here](https://github.com/NichitaGabriel/Results-summary-component)
+- [Added live site URL here](https://nichitagabriel.github.io/Results-summary-component/)
 
 ## My process
 
